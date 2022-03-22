@@ -13,7 +13,7 @@
 
     - name: Install backend
       include_role:
-        name: sensu.sensu_go.backend
+        name: backend
       vars:
         version: 6.1.0
 
